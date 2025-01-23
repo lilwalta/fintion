@@ -28,3 +28,7 @@ body {
     border-radius: 5px;
     background-color: #191719;
   }
+
+  .avatar {
+    background-image: url(logo.png);
+  }
