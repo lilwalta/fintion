@@ -25,6 +25,7 @@ body {
   }
 
   .centered {
+    width: 25%;
     border-radius: 5px;
     background-color: #191719;
   }
