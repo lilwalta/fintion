@@ -1,110 +1,112 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <title>Login</title>
-        <link rel="stylesheet" href="login.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div class="split left">
-            <div class="logo-img">
-                <img src="logofull.png" alt="Fintion Logo">
-            </div>
-        </div>
-        <div class="split right">
-        <div class="loginBox">
+   <head>
+      <meta charset="UTF-8" />
+      <title>Login</title>
+      <link rel="stylesheet" href="login.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <div class="split left">
+         <div class="logo-img">
+            <img src="logofull.png" alt="Fintion Logo">
+         </div>
+      </div>
+      <div class="split right">
+         <div class="loginBox">
             <div class="login-wrapper">
-                <form action="login">
-                    <div class="avatar-img">
-                        <img src="logo.png" alt="Logo">
-                    </div>
-                    <h2>LOG IN</h2>
-                    <div class="input-box">
-                        <input type="email">
-                        <span class="icon">
-                            <ion-icon name="mail"></ion-icon>
-                        </span>
-                        <label>Email</label>
-                        <div class="input-line"></div>
-                    </div>
-                    <div class="input-box">
-                        <input type="password">
-                        <span class="icon">
-                            <ion-icon name="lock-closed"></ion-icon>
-                        </span>
-                        <label>Password</label>
-                        <div class="input-line"></div>
-                    </div>
-                    <div class="remember-forgot">
-                        <label><input type="checkbox"> Remember me</label>
-                        <a href="#">Forgot Password?</a>
-                    </div>
-                    <button class="button">Login</button>
-                    <div class="register-link">
-                        <p>Don't have an account? <button class="form-button registerBtn">Register</button></p>
-                    </div>
-                </form>
+               <form action="login">
+                  <div class="avatar-img">
+                     <img src="logo.png" alt="Logo">
+                  </div>
+                  <h2>LOG IN</h2>
+                  <div class="input-box">
+                     <input type="email">
+                     <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                     </span>
+                     <label>Email</label>
+                     <div class="input-line"></div>
+                  </div>
+                  <div class="input-box">
+                     <input type="password">
+                     <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                     </span>
+                     <label>Password</label>
+                     <div class="input-line"></div>
+                  </div>
+                  <div class="remember-forgot">
+                     <label><input type="checkbox"> Remember me</label>
+                     <a href="#">Forgot Password?</a>
+                  </div>
+                  <button class="button">Login</button>
+                  <div class="register-link">
+                     <p>Don't have an account? <button class="form-button registerBtn">Register</button></p>
+                  </div>
+               </form>
             </div>
-        </div>
             <div class="signup-wrapper">
-            <form action="register" id="form">
-                <h2>REGISTER</h2>
-                <p id="error-message"></p>
-                <div class="input-box">
-                    <input type="email" id="email-input">
-                        <span class="icon">
-                            <ion-icon name="mail"></ion-icon>
-                        </span>
-                        <label>Email</label>
-                        <div class="input-line"></div>
-                </div>
-                <div class="input-box">
-                    <input type="text" id="name-input">
-                    <span class="icon">
+               <form action="register" id="form">
+                  <h2>REGISTER</h2>
+                  <p id="error-message"></p>
+                  <div class="input-box">
+                     <input type="email" id="email-input">
+                     <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                     </span>
+                     <label>Email</label>
+                     <div class="input-line"></div>
+                  </div>
+                  <div class="input-box">
+                     <input type="text" id="name-input">
+                     <span class="icon">
                         <ion-icon name="person"></ion-icon>
-                    </span>
-                    <label>Username</label>
-                    <div class="input-line"></div>
-                </div>
-                <div class="input-box">
-                    <input type="password" id="password-input">
-                    <span class="icon">
+                     </span>
+                     <label>Username</label>
+                     <div class="input-line"></div>
+                  </div>
+                  <div class="input-box">
+                     <input type="password" id="password-input">
+                     <span class="icon">
                         <ion-icon name="lock-closed"></ion-icon>
-                    </span>
-                    <label>Password</label>
-                    <div class="input-line"></div>
-                </div>
-                <div class="input-box">
-                    <input type="password" id="retype-input">
-                    <span class="icon">
+                     </span>
+                     <label>Password</label>
+                     <div class="input-line"></div>
+                  </div>
+                  <div class="input-box">
+                     <input type="password" id="retype-input">
+                     <span class="icon">
                         <ion-icon name="lock-closed"></ion-icon>
-                    </span>
-                    <label>Re-type Password</label>
-                    <div class="input-line"></div>
-                </div>
-                <button class="button">Sign Up</button>
-                <div class="register-link" id="bottomText">
-                    <p>Already have an account? <button class="form-button loginBtn">Login</button></p>
-                </div>
-            </form>
+                     </span>
+                     <label>Re-type Password</label>
+                     <div class="input-line"></div>
+                  </div>
+                  <button class="button">Sign Up</button>
+                  <div class="register-link" id="bottomText">
+                     <p>Already have an account? <button class="form-button loginBtn">Login</button></p>
+                  </div>
+               </form>
             </div>
-            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-            <script>
-const loginBtn = document.querySelector('.loginBtn');
-const registerBtn = document.querySelector('.registerBtn');
-const loginBox = document.querySelector('.loginBox');
-
-
-registerBtn.addEventListener('click', () => {
-    loginBox.classList.toggle('active');
-});
-loginBtn.addEventListener('click', () => {
-    loginBox.classList.toggle('active');
-});
-            </script>
-    </body>
+         </div>
+      </div>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <script>
+         const loginBtn = document.querySelector('.loginBtn');
+         const registerBtn = document.querySelector('.registerBtn');
+         const loginBox = document.querySelector('.loginBox');
+         
+         
+         registerBtn.addEventListener('click', () => {
+             loginBox.classList.toggle('active');
+         });
+         loginBtn.addEventListener('click', () => {
+             loginBox.classList.toggle('active');
+         });
+                     
+      </script>
+   </body>
 </html>
